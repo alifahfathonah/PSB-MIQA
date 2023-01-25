@@ -1,0 +1,186 @@
+nav .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav .navbar-brand:hover {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav .nav-link {
+    color: #fff;
+    font-size: large;
+}
+
+nav .nav-link:hover {
+    color: #0003b7;
+    font-weight: bold;
+}
+
+nav .navbar-nav {
+    background-color: #E76D19;
+}
+
+header {
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url("../../images/bg/header.png");
+    background-size: cover;
+}
+
+header h1, header p {
+  color: #fff;
+}
+
+header .btn-get-started {
+  padding: 6px 32px;
+  background-color: #ff7308;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+header .btn-get-started:hover {
+  background-color: #ff8f3a;
+  border-color: #ff8f3a;
+  color: #fff;
+}
+
+header .btn-secondary {
+  padding: 6px 32px;
+  background-color: #0003b7;
+  border-color: #0003b7;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+header .btn-secondary:hover {
+  background-color: #1f23ff;
+  border-color: #1f23ff;
+  color: #fff;
+}
+
+main {
+    background-image: url("../../images/bg/bg.png");
+    background-size: cover;
+}
+
+main h1 {
+    margin-bottom: 30px;
+    color: #ff8f3a;
+}
+
+main .section-alur {
+    text-align: center;
+    padding: 50px 0 50px;
+}
+
+main .section-alur img{
+    max-height: 420px;
+}
+
+main .section-informasi {
+  background-color: #E76D19;
+  color: #fff;
+  padding-bottom: 32px;
+}
+
+main .section-informasi h1 {
+    color: #fff;
+    text-align: center;
+    padding: 36px 0px 0px;
+}
+
+main .section-informasi p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+main .section-informasi .btn-secondary {
+    padding: 6px 32px;
+    background-color: #ff0019;
+    border-color: #ff0019;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+main .section-informasi .btn-secondary:hover {
+    background-color: #c50700;
+    border-color: #c50700;
+    color: #fff;
+}
+
+main .section-informasi .btn-get-started {
+    padding: 6px 32px;
+    background-color: #0003b7;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+main .section-informasi .btn-get-started:hover {
+    background-color: #1f23ff;
+    border-color: #1f23ff;
+    color: #fff;
+}
+
+main .section-syarat {
+    text-align: center;
+    padding: 50px 0 50px;
+}
+
+main .section-syarat img{
+    max-height: 420px;
+}
+
+main .section-kontak {
+  background-color: #E76D19;
+  color: #fff;
+  padding-bottom: 32px;
+}
+
+main .section-kontak h1 {
+    color: #fff;
+    text-align: center;
+    padding: 36px 0px 0px;
+}
+
+main .section-kontak hr, main .section-informasi hr {
+    border-color: #fff;
+    border-width: 4px;
+}
+
+main .section-kontak p {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+main .section-kontak a {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+footer {
+    background-color: #c45c17;
+    color: #fff;
+}
+
+@media (max-width: 500px) {
+    #navbarNav {
+        justify-content: flex-start;
+    }
+
+    main .section-alur img{
+        max-height: 200px;
+    }
+
+    main .section-syarat img{
+        max-height: 200px;
+    }
+}
